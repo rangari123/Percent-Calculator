@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 550px;
+  height: 350px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+header {
+  text-align: center;
+  color: #9498a3;
+}
+header p {
+  color: #a5a8a7;
+  /* 525252 */
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.input-num {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#num {
+  width: 90px;
+  border-bottom: 2px solid #9498a3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding: 0px 10px;
+  font-size: 1.1rem;
+}
+#num2 {
+  width: 90px;
+  border-bottom: 2px solid #9498a3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding: 0px 10px;
+  font-size: 1.1rem;
+}
+.btn {
+  padding: 7px 25px;
+  font-size: 1rem;
+  background-color: rgb(142, 159, 238);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.clear {
+  padding: 7px 25px;
+  font-size: 1rem;
+  background-color: rgb(142, 159, 238);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.butn {
+  display: flex;
+  gap: 20px;
+}
+footer p {
+  font-size: 0.8rem;
+  color: #a5a8a7;
+}
+footer p a {
+  color: rgb(142, 159, 238);
+}
+.calc {
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(247, 247, 249);
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(64, 63, 63);
+  margin: 20px 0px;
+  width: fit-content;
+}
+.res {
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(247, 247, 249);
+  /* padding: 5px; */
+  text-align: center;
+  background-color: rgb(64, 63, 63);
+  margin: 20px 0px;
+  width: fit-content;
+}
+.alert {
+  background-color: rgb(226, 130, 130);
+  color: #ffffff;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  transition: all ease-in-out;
+}
